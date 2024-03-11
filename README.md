@@ -17,11 +17,11 @@ This repository contains all codes and datasets used for the validation of my mo
 
 ## Task 1
 ### 1
-Going through the models provided, I choose the eos6oli because I was able to undesrtand the aim and the methodology of the publication more.
+Going through the models provided, I choose the eos6oli because I was able to understand the aim and the methodology of the publication more.
 ### 2
 I created this repository for all files
 ### 3
-I downloaded,fetched and served the model in this notebook. To ensure it was working smoothly, I ran pedictions for this sample dataset and saved the result here
+I downloaded,fetched and served the model in this [notebook](/notebooks/Ersilia_Week2_Task1_3to4.ipynb) . To ensure it was working smoothly, I ran pedictions for this sample dataset and saved the result here
 ### 4
 I downloaded molecules used from Chembl. From the homepage, I navigated to compounds, filtered to small molecules that have been approved and doanloaded 3592 of them.
 #### Exploring the dataset
