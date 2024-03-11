@@ -1,15 +1,19 @@
 # Validation of eos6oli Model
 This repository contains all codes and datasets used for the validation of my model of choice. This model predicts Acqeous Solubility, an important property for drug discovery.
 ## Characteristics
-Input: Compound  Input shape: Single  Task: Regression  Output: Experimental value  Output shape: Single (Predicted log of solubility of the compound)
+* Input: Compound
+* Input shape: Single
+* Task: Regression
+* Output: Experimental value
+* Output shape: Single (Predicted log of solubility of the compound)
 
 ## Repository Ogranization
-'/notebooks' contains all colab notebooks used
-'/data' contains all the datasets
-'/data/input' contains all inputs
-'/data/output' contains all outputs generated
-'/figues' contains all figues generated
-'requirements.txt' contains all required packages and dependencies
+* '/notebooks' contains all colab notebooks used
+* '/data' contains all the datasets
+* '/data/input' contains all inputs
+* '/data/output' contains all outputs generated
+* '/figues' contains all figues generated
+* 'requirements.txt' contains all required packages and dependencies
 
 ## Task 1
 ### 1
