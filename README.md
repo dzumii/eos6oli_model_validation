@@ -13,7 +13,6 @@ This repository contains all codes and datasets used for the validation of my mo
 * '/data/input' contains all inputs
 * '/data/output' contains all outputs generated
 * '/figues' contains all figues generated
-* 'requirements.txt' contains all required packages and dependencies
 
 ## Task 1
 ### 1
