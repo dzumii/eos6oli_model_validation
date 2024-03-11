@@ -27,7 +27,7 @@ I downloaded molecules used from Chembl. From the homepage, I navigated to compo
 #### Exploring the dataset
 I explored the dataset, ensured the molecules had SMILE representation, found out some entries had missing values,cleaned it up and saved the first 1000 entries into a csv [file](/data/input/1000molecules.csv) to be used.
 ### 5
-I ran predictions with the model, generated an [output](/data/output/1000predictions.csv) and i tried to match it with the drug names [here](/data/output/predictions.csv). The model predicts the solubility. I made a scatter, histogram, violin and box plot of the predictions. The ouput shows that the solubility of most of these molecules were between -9 and +2, with  majority at around -3.
+I ran predictions with the model, generated an [output](/data/output/1000predictions.csv) and i tried to match it with the drug names [here](/data/output/predictions.csv). The model predicts the solubility. I made a scatter, histogram, violin and box [plots](/figures/molecules) of the predictions. The ouput shows that the solubility of most of these molecules were between -9 and +2, with  majority at around -3.
 
 ## Task 2
 ### 1
