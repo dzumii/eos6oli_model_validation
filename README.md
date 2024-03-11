@@ -1,5 +1,5 @@
 # Validation of eos6oli Model
-This repository contains all codes and datasets used for the validation of my model of choice. This model predicts Acqeous Solubility, an important property for drug discovery.
+This repository contains all codes and datasets used for the validation of my model of choice. This model predicts Acqeous Solubility of compounds, an important property for drug discovery.
 ## Characteristics
 * Input: Compound
 * Input shape: Single
