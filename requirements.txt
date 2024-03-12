@@ -1,0 +1,4 @@
+Python
+Pytorch 1.7+
+RDKit 2017.09.1+
+pathlib 1.0+
