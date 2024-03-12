@@ -1,4 +1,4 @@
-Python
-Pytorch 1.7+
-RDKit 2017.09.1+
-pathlib 1.0+
+python_version <3.12
+torch==1.7.*
+rdkit==2017.09.1
+pathlib==1.0
