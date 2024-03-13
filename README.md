@@ -21,13 +21,13 @@ Going through the models provided, I choose the eos6oli because I was able to un
 ### 2
 I created this repository for all files
 ### 3
-I downloaded,fetched and served the model in this [notebook](/notebooks/Ersilia_Week2_Task1_3to4.ipynb) . To ensure it was working smoothly, I ran pedictions for this sample [dataset](/data/input/eml_canonical.csv) and saved the [result](/data/output/eos6oli_output.csv).
+I downloaded,fetched and served the model in this [notebook](/notebooks/Ersilia_Week2_Task1_3to4.ipynb) . To ensure it was working smoothly, I ran predictions for this sample [dataset](/data/input/eml_canonical.csv) and saved the [result](/data/output/eos6oli_output.csv).
 ### 4
-I downloaded molecules used from Chembl. From the homepage, I navigated to compounds, filtered to small molecules that have been approved and downloaded 3592 of them in tsv as seen [here](/data/input/Chembl.tsv).
+I downloaded molecules used from Harvard Dataverse because i needed a dataset that has actual or experimentally determined solubility values to compare my predictions with.On Harvard Dataverse, I searched for Aqsoldb a manually curated reference dataset of compounds with their acqous solubility values.I downloaded the [dataset](/data/input/curated-solubility-dataset.csv).
 #### Exploring the dataset
-I explored the dataset, ensured the molecules had SMILE representation, found out some entries had missing values,cleaned it up and saved the first 1000 entries into a csv [file](/data/input/1000molecules.csv) to be used.
+I explored the dataset, ensured the molecules had SMILE representation, and saved random 1000 entries into a csv [file](/data/input/1000molecules.csv) to be used.
 ### 5
-I ran predictions with the model, generated an [output](/data/output/1000predictions.csv) and i tried to match it with the drug names [here](/data/output/predictions.csv). The model predicts the solubility. I made a scatter, histogram, violin and box [plots](/figures/1000molecules) of the predictions. The ouput shows that the solubility of most of these molecules were between -9 and +2, with  majority at around -3.
+I ran predictions with the model, generated an [output](/data/output/1000predictions.csv) and I tried to match it with the actual solubility values using the SMILES [here](/data/output/predictions.csv). The model predicts the solubility. I made a scatter and residual plots of the actual solubility vs the predicted solubility [plots](/figures/1000molecules) of the predictions. With the scatter plot forming a diagonal line and the residual plot being centred around 0 and the mean absolute error at 0.82, it suggests that the model is not bias.
 
 ## Task 2
 ### 1
@@ -41,3 +41,4 @@ Using the same SC2 [dataset](/data/input/llinas2020_raw.csv), in this [notebook]
 * [Soltranet](https://github.com/gnina/SolTranNet)
 * [Soltranet Datasets and Figures Generations Repository](https://github.com/francoep/SolTranNet_paper)
 * [Ersilia Google Colab Guide](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb)
+* [Harvard Dataverse](https://dataverse.harvard.edu/)
