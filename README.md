@@ -1,5 +1,5 @@
 # Validation of eos6oli Model
-This repository contains all codes and datasets used for the validation of my model of choice. This model predicts Acqeous Solubility of compounds, an important property for drug discovery.
+This repository contains all codes and datasets used for the validation of eos6oli model. Since there are millions of compounds, it would be slow and expensive to experimentally determine the solubility of these compounds. This model predicts Acqeous Solubility of compounds, an important property for drug discovery using a molecule's SMILES representation as input. The model is based on the Molecule Attention Transformer (MAT) architecture found in literature which applies a self-attention mechanism to the molecules' SMILES represented in a graph but skips the distance matrix calculation step to accelerate predictions.
 ## Characteristics
 * Input: Compound
 * Input shape: Single
