@@ -21,9 +21,9 @@ Going through the models provided, I choose the eos6oli because I was able to un
 ### 2
 I created this repository for all files
 ### 3
-I downloaded,fetched and served the model in [Model_Bias](/notebooks/Model_Bias.ipynb) . To ensure it was working smoothly, I ran predictions for this sample [dataset](/data/input/eml_canonical.csv). Using the rdkit library, i checked and confirmed the SMILES were already standerdized. I saved the predictions [result](/data/output/eos6oli_output.csv).
+I downloaded,fetched and served the model in [Model_Bias](/notebooks/Model_Bias.ipynb) . To ensure it was working smoothly, I ran predictions for this sample [dataset](/data/input/eml_canonical.csv). I saved the predictions [result](/data/output/eos6oli_output.csv).
 ### 4
-I downloaded molecules used from Harvard Dataverse because i needed a dataset that has actual or experimentally determined solubility values to compare my predictions with.On Harvard Dataverse, I searched for Aqsoldb a manually curated reference dataset of compounds with their acqous solubility values.I downloaded the [dataset](/data/input/curated-solubility-dataset.csv).
+I downloaded molecules used from Harvard Dataverse because I needed a dataset that has actual or experimentally determined solubility values to compare my predictions with.On Harvard Dataverse, I searched for Aqsoldb a manually curated reference dataset of compounds with their acqous solubility values.I downloaded the [dataset](/data/input/curated-solubility-dataset.csv).
 #### Exploring the dataset
 I explored the dataset, ensured the molecules had valid SMILES representation using rdkit library, and saved random 1000 entries into a csv [file](/data/input/1000molecules.csv) to be used.
 ### 5
