@@ -37,6 +37,10 @@ From the publication, I was able to find the github repository which has the ins
 ### 3
 Using the same SC2 [dataset](/data/input/llinas2020_raw.csv), in Section B of [Model_Reproducibility](/notebooks/Model_Reproducibility.ipynb), I generated predictions using Ersilia model, saved the [result](/data/output/ErsiliaSoltranet.csv) and compared the results using the [dataset](/data/input/merged_Ersiliapredictions.csv). I recreated an [histogram](/figures/Ersilia/Reproducibility_plotErsilia.png) and sensitivity [results](/figures/Ersilia/Sensitivity) . The results generated using Ersilia and the author's model was exactly the same.
 
+## Week 3
+### Task 1
+After a short literature review, i found this [publication](/Publication.pdf) that has several datasets on molecules and their experimentally determined solubility. I downloaded one for use as my external [dataset](/data/input/aqua_stand.csv). I also downloaded the training [dataset](/data/input/aqsol.csv) for the soltranet model and compared the smiles with the ones on my external dataset to be sure there is no data leakage. Out of 1310 smiles, I found out 516 were part of the training datasets and had to delete them from my external datasets. I checked and confirmed the smiles were in standard form and generated Inchikeys for the molecules. I saved the processed [dataset](/data/output/noLeaks_data.csv). I made predictions with the eos6oli model and saved the [output](/data/output/ErsiliaValidation.csv). I matched the ouput withe the external dataset to get the experimental values and saved the csv [file](/data/output/merged_ErsiliaValidation.csv). To validate the model, I calculated the R2 score (coefficient of determination) and the score is 0.88 suggesting that the model does well at capturing the patterns and relationships in the dataset with the predictions being very close to the experimental values.
+
 # References
 * [Soltranet](https://github.com/gnina/SolTranNet)
 * [Soltranet Datasets and Figures Generations Repository](https://github.com/francoep/SolTranNet_paper)
