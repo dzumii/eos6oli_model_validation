@@ -47,9 +47,6 @@ I made a PCA [plot](/figures/PCA/PCAMorganFingerprints_plot.png) of the training
 ### Tanimoto Similarity Difference
 Because of the overlap seen in the PCA plot, I went ahead to calculate the tanimoto similarity difference between the training and validation dataset. The average Tanimoto similarities between the data in test set and validation set was 0.085. I made [histogram](/figures/TanimotoSimilarity/TanimotoSimilarity_plot.png) and [Kernel density estimate](/figures/TanimotoSimilarity/TanimotoSimilarity2_plot.png) plots of the diffrence and the Tanimoto similarity between the molecules were mostly distributed between 0 and 0.4 which indicated that molecules used in validation were obviously structurally diverse from that of the training set.
 
- of the training and external vaildation set using morgan fingerprints and the two sets of data overlap, suggesting that the distribution of the validation set was roughly within the scope of the chemical space of the training set, which indicated that the model could pre-dict the solubility of the validation set.
-
-
 # References
 * [Soltranet](https://github.com/gnina/SolTranNet)
 * [Soltranet Datasets and Figures Generations Repository](https://github.com/francoep/SolTranNet_paper)
